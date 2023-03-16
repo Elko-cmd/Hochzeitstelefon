@@ -67,6 +67,7 @@ void addNumber(int number) {
     playTrack(numToId(lastFour));
     clearArray();
   }
+
 }
 
 void clearArray() {

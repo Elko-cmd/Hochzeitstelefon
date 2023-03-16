@@ -25,7 +25,7 @@ void mp3Setup () {
   myDFPlayer.setTimeOut(500); //Set serial communictaion time out 500ms
   
   //----Set volume----
-  myDFPlayer.volume(10); 
+  myDFPlayer.volume(20); 
 }
 
 
@@ -34,3 +34,4 @@ void playTrack(int id){
   myDFPlayer.playMp3Folder(id);
 }
 
+ 
